@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/iram/ros2_ws/install/uwrt_mars_rover_utilities/include/**",
+                "/home/iram/ros2_ws/install/software_training/include/**",
+                "/opt/ros/galactic/include/**",
+                "/home/iram/ros2_ws/src/software_training/software_challenge/src/software_training/include/**",
+                "/home/iram/ros2_ws/src/throughput_test/include/**",
+                "/home/iram/ros2_ws/src/uwrt_mars_rover/uwrt_mars_rover_drivetrain/uwrt_mars_rover_drivetrain_hw/include/**",
+                "/home/iram/ros2_ws/src/uwrt_mars_rover/uwrt_mars_rover_utilities/include/**",
+                "/usr/include/**",
+                "/opt/ros/galactic/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        },
+        {
+            "name": "ROS2",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang-10",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}
